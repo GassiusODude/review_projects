@@ -1,0 +1,27 @@
+@startuml
+
+abstract ConfigurationInterface
+abstract GNSSBlockInterface {
+    + std::string role()
+    + std::string implementation()
+    + size_t item_size()
+    + void connect(gr::topBlock_sptr top_block)
+    + void disconnect(gr::top_block_sptr top_block)
+    + gr::basic_block_sptr get_left_block()
+    + gr::basic_block_sptr get_right_bloc()
+    + gr_basic_block_sptr get_left_block(int RF_channel)
+    + gr_basic_block_sptr get_right_block(int RF_channel)
+    + void start()
+}
+abstract AcquisitionInterface
+abstract TrackInterface
+abstract PvtInterface
+abstract TelemetryDecoderInterface
+abstract SignalSourceInterface
+
+GNSSBlockInterface o-- SignalSourceInterface
+GNSSBlockInterface o-- AcquisitionInterface
+GNSSBlockInterface o-- PvtInterface
+GNSSBlockInterface o-- TelemetryDecoderInterface
+GNSSBlockInterface o-- TrackInterface
+@enduml

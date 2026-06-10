@@ -1,0 +1,33 @@
+@startuml
+enum Implementation {
+    Beamformer_Filter
+    Fir_Filter
+    Freq_Xlating_Fir_Filter
+    Notch_Filter
+    Notch_Filter_Lite
+    Pulse_Blanking_Filter
+}
+enum InputTypes {
+    byte
+    short
+    float
+    cbyte
+    cshort
+    gr_complex
+}
+enum OutputTypes {
+    cbyte
+    cshort
+    gr_complex
+}
+abstract GNSSBlockInterface
+class FirFilter {
+
+}
+GNSSBlockInterface o-- BeamformerFilter
+GNSSBlockInterface o-- FirFilter
+GNSSBlockInterface o-- FreqXlatingFirFilter
+GNSSBlockInterface o-- NotchFilter
+GNSSBlockInterface o-- NotchFilterLite
+GNSSBlockInterface o-- PulseBlankingFilter
+@enduml

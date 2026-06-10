@@ -33,37 +33,13 @@ First Fix Example
 
 ~~~bash
   # NOTE: the conf file specifies the input source (from file or from SDR)
-  gnss-sdr --config_file=./my-first-GNSS-SDR-receiver.conf
+  gnss-sdr --config_file=./2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN_new.conf
 ~~~
+
+A modified version of [2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN.conf](./2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN_new.conf) is used due to changes in the repository.  The generated [output](./output_log.txt).
 
 ## Configuration File
 
-~~~plantuml
-abstract ConfigurationInterface
-abstract GNSSBlockInterface {
-    + std::string role()
-    + std::string implementation()
-    + size_t item_size()
-    + void connect(gr::topBlock_sptr top_block)
-    + void disconnect(gr::top_block_sptr top_block)
-    + gr::basic_block_sptr get_left_block()
-    + gr::basic_block_sptr get_right_bloc()
-    + gr_basic_block_sptr get_left_block(int RF_channel)
-    + gr_basic_block_sptr get_right_block(int RF_channel)
-    + void start()
-}
-abstract AcquisitionInterface
-abstract TrackInterface
-abstract PvtInterface
-abstract TelemetryDecoderInterface
-abstract SignalSourceInterface
-
-GNSSBlockInterface o-- SignalSourceInterface
-GNSSBlockInterface o-- AcquisitionInterface
-GNSSBlockInterface o-- PvtInterface
-GNSSBlockInterface o-- TelemetryDecoderInterface
-GNSSBlockInterface o-- TrackInterface
-~~~
 
 ### Global Options
 
@@ -127,9 +103,9 @@ class UhdSignalSource {
 }
 ~~~
 
-### FileSource
+### FileSignalSource
 
-The implementation is stored in the `FileSourceBase` class.
+The implementation is mostly stored in the `FileSourceBase` class.
 
 | Property | Values | Description |
 | :-: | :-: | :------- |
@@ -143,15 +119,12 @@ The implementation is stored in the `FileSourceBase` class.
 | `freq` | long | Frequency of the recorded signal |
 | `gain` | int | Gain |
 
-~~~plantuml
-: file_source;
-if (throttle?) then (yes)
-    :throttle;
-endif
-if (dump?) then (yes)
-    :file_sink;
-endif
-: sensor_out;
+Internally this is configured as a flowgraph with a file_source, potentially a throttle (enable_throttle_control) and file_sink (dump)
+
+~~~mermaid
+flowchart LR
+    file_source(file_source) --> throttle --> file_sink(dump/filesink)
+    throttle --> SensorOut
 ~~~
 
 ### UhdSignalSource
@@ -170,9 +143,9 @@ endif
 
 The signal conditioner consists of 3 elements:
 
-* DataTypeAdapter
-* InputFilter
-* Resampler
+* DataTypeAdapter - Used to convert data types
+* InputFilter - Filter the input signal
+* Resampler - Resample the signal
 
 ~~~mermaid
 flowchart LR
@@ -217,17 +190,9 @@ InputFilter.IF=0
 Resampler.implementation=Pass_Through
 ~~~
 
-## Channels
+### Input Filter
 
-~~~conf
-;######### CHANNELS GLOBAL CONFIG ############
-Channel.signal=1C
-Channels.count=5
-Channels_1C.count=5
-Channels.in_acquisition=1
-~~~
-
-## Input Filter
+![Input Filter Class Diagram](./InputFilter.png)
 
 | Property | Values | Description |
 | :-: | :-: | :------- |
@@ -247,41 +212,19 @@ Channels.in_acquisition=1
 | `sampling_frequency` | int | Sampling rate
 | `IF` | int | Intermediate frequency used in `FreqXlatingFirFilter` |
 
-~~~plantuml
-enum Implementation {
-    Beamformer_Filter
-    Fir_Filter
-    Freq_Xlating_Fir_Filter
-    Notch_Filter
-    Notch_Filter_Lite
-    Pulse_Blanking_Filter
-}
-enum InputTypes {
-    byte
-    short
-    float
-    cbyte
-    cshort
-    gr_complex
-}
-enum OutputTypes {
-    cbyte
-    cshort
-    gr_complex
-}
-abstract GNSSBlockInterface
-class FirFilter {
+## Channels
 
-}
-GNSSBlockInterface o-- BeamformerFilter
-GNSSBlockInterface o-- FirFilter
-GNSSBlockInterface o-- FreqXlatingFirFilter
-GNSSBlockInterface o-- NotchFilter
-GNSSBlockInterface o-- NotchFilterLite
-GNSSBlockInterface o-- PulseBlankingFilter
+~~~conf
+;######### CHANNELS GLOBAL CONFIG ############
+Channel.signal=1C
+Channels.count=5
+Channels_1C.count=5
+Channels.in_acquisition=1
 ~~~
 
-## Acquisition
+[Channels](https://gnss-sdr.org/docs/sp-blocks/channels/) as described by GNSS-SDR.  This contains a table of the unique types (i.e. `1C` refers to GPS L1 Coarse Acquisition)
+
+### Acquisition
 
 Acquisition is performed using a grid search with dimensions: time delay and frequency shift (Doppler).  The parameters `doppler_max` and `doppler_step` configures the number of Doppler values to use in the grid search.
 
@@ -298,20 +241,6 @@ Acquisition is performed using a grid search with dimensions: time delay and fre
 | `doppler_step` | `250` | Doppler search step size in Hz. |
 | `max_dwells` | `1` | Maximum number of dwell attempts per search bin. |
 
-~~~plantuml
-abstract AcquisitionInterface {
-    + void set_gnss_synchro(Gnss_Synchro* gnss_synchro)
-    + void set_channel(unsigned int channel_id)
-    + void set_channel_fsm(std::weak_ptr<ChannelFSM> channel_fsm)
-    + void set_doppler_center(int)
-    + void set_local_code()
-    + signed int mag()
-    + void reset()
-    + void stop_acquisition()
-    + void set_resampler_latency(uint32_t latency_samples)
-}
-~~~
-
 ~~~conf
 ;######### ACQUISITION GLOBAL CONFIG ############
 Acquisition_1C.implementation=GPS_L1_CA_PCPS_Acquisition
@@ -326,11 +255,12 @@ Acquisition_1C.doppler_step=250
 Acquisition_1C.max_dwells=1
 ~~~
 
-## Tracking
+### Tracking
 
-~~~plantuml
-abstract TrackInterface {
-    + void setart_tracking()
+~~~mermaid
+classDiagram
+class TrackInterface <<abstract>> {
+    + void start_tracking()
     + void stop_tracking()
     + void set_gnss_synchro(Gnss_Synchro* gnss_synchro)
     + void set_channel(unsigned int channel_id)
@@ -372,10 +302,11 @@ Tracking_1C.dump_filename=tracking_ch_
 | `dump` | `false` | Enables or disables dumping intermediate tracking data. |
 | `dump_filename` | `tracking_ch_` | Prefix used for generated tracking dump files. |
 
-## PVT
+## Position, Velocity, and Timing (PVT)
 
-~~~plantuml
-abstract PvtInterface {
+~~~mermaid
+classDiagram
+class PvtInterface <<abstract>> {
     + void reset()
     + void clear_ephemeris()
     + std::map<int, Gps_Ephemeris> get_gps_ephemeris()
@@ -396,8 +327,9 @@ PVT.output_as_gina=false
 
 ## Telemetry Decoder
 
-~~~plantuml
-abstract TelemetryDecoderInterface {
+~~~mermaid
+classDiagram
+class TelemetryDecoderInterface <<abstract>> {
     +void reset()
     + void set_satellite(const Gnss_Satellite& sat)
     + void set_channel(int channel)
