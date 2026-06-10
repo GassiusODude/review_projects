@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  # Main GNSS-SDR environment
+  gnss-sdr:
+    image: carlesfernandez/docker-gnsssdr:latest
+    container_name: gnss_sdr_container
+    stdin_open: true # Keeps stdin open (interactive mode)
+    tty: true        # Allocates a pseudo-TTY
+    volumes:
+      - H:/signal_captures/2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN:/workspace
+    working_dir: /workspace

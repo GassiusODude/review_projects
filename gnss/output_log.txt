@@ -1,0 +1,490 @@
+/workspace/2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN# gnss-sdr --config_file=2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN.conf
+Initializing GNSS-SDR v0.0.21.git-next-d272d1ebd ... Please wait.
+Logging will be written at "/tmp"
+Use gnss-sdr --log_dir=/path/to/log to change that.
+RF Channels: 1
+Processing file /workspace/2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN/2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN.dat, which contains 800000000 samples (1600000000 bytes)
+GNSS signal recorded time to be processed: 200 [s]
+Tracking of GPS L1 C/A signal started on channel 0 for satellite GPS PRN 01 (Block IIF)
+Current receiver time: 1 s
+Tracking of GPS L1 C/A signal started on channel 2 for satellite GPS PRN 11 (Block III)
+Tracking of GPS L1 C/A signal started on channel 1 for satellite GPS PRN 17 (Block IIR-M)
+Tracking of GPS L1 C/A signal started on channel 3 for satellite GPS PRN 20 (Block IIR)
+Tracking of GPS L1 C/A signal started on channel 4 for satellite GPS PRN 22 (Block IIR)
+Current receiver time: 2 s
+Current receiver time: 3 s
+Current receiver time: 4 s
+Current receiver time: 5 s
+Current receiver time: 6 s
+Current receiver time: 7 s
+GPS L1 C/A histogram bit synchronization locked in channel 0 for satellite GPS PRN 01 (Block IIF)
+Enabled 10 ms extended correlator in channel 0 for satellite GPS PRN 01 (Block IIF)
+GPS L1 C/A histogram bit synchronization locked in channel 2 for satellite GPS PRN 11 (Block III)
+Enabled 10 ms extended correlator in channel 2 for satellite GPS PRN 11 (Block III)
+GPS L1 C/A histogram bit synchronization locked in channel 1 for satellite GPS PRN 17 (Block IIR-M)
+Enabled 10 ms extended correlator in channel 1 for satellite GPS PRN 17 (Block IIR-M)
+GPS L1 C/A histogram bit synchronization locked in channel 3 for satellite GPS PRN 20 (Block IIR)
+Enabled 10 ms extended correlator in channel 3 for satellite GPS PRN 20 (Block IIR)
+Current receiver time: 8 s
+Current receiver time: 9 s
+Current receiver time: 10 s
+Current receiver time: 11 s
+Current receiver time: 12 s
+Loss of lock in channel 4, satellite GPS PRN 22 (Block IIR) !
+Tracking of GPS L1 C/A signal started on channel 4 for satellite GPS PRN 23 (Block III)
+Current receiver time: 13 s
+Current receiver time: 14 s
+Current receiver time: 15 s
+Current receiver time: 16 s
+Current receiver time: 17 s
+Current receiver time: 18 s
+GPS L1 C/A histogram bit synchronization locked in channel 4 for satellite GPS PRN 23 (Block III)
+Enabled 10 ms extended correlator in channel 4 for satellite GPS PRN 23 (Block III)
+Current receiver time: 19 s
+Current receiver time: 20 s
+Current receiver time: 21 s
+Current receiver time: 22 s
+Current receiver time: 23 s
+Current receiver time: 24 s
+Current receiver time: 25 s
+Current receiver time: 26 s
+Current receiver time: 27 s
+Current receiver time: 28 s
+Current receiver time: 29 s
+Current receiver time: 30 s
+Current receiver time: 31 s
+Current receiver time: 32 s
+Current receiver time: 33 s
+Current receiver time: 34 s
+Current receiver time: 35 s
+Current receiver time: 36 s
+Current receiver time: 37 s
+Current receiver time: 38 s
+Current receiver time: 39 s
+Current receiver time: 40 s
+Current receiver time: 41 s
+Current receiver time: 42 s
+Current receiver time: 43 s
+Current receiver time: 44 s
+Current receiver time: 45 s
+Current receiver time: 46 s
+Current receiver time: 47 s
+Loss of lock in channel 3, satellite GPS PRN 20 (Block IIR) !
+Tracking of GPS L1 C/A signal started on channel 3 for satellite GPS PRN 20 (Block IIR)
+Current receiver time: 48 s
+Current receiver time: 49 s
+Current receiver time: 50 s
+Current receiver time: 51 s
+Current receiver time: 52 s
+Loss of lock in channel 1, satellite GPS PRN 17 (Block IIR-M) !
+Tracking of GPS L1 C/A signal started on channel 1 for satellite GPS PRN 17 (Block IIR-M)
+Current receiver time: 53 s
+Current receiver time: 54 s
+GPS L1 C/A histogram bit synchronization locked in channel 3 for satellite GPS PRN 20 (Block IIR)
+Enabled 10 ms extended correlator in channel 3 for satellite GPS PRN 20 (Block IIR)
+Loss of lock in channel 2, satellite GPS PRN 11 (Block III) !
+Tracking of GPS L1 C/A signal started on channel 2 for satellite GPS PRN 11 (Block III)
+Loss of lock in channel 0, satellite GPS PRN 01 (Block IIF) !
+Tracking of GPS L1 C/A signal started on channel 0 for satellite GPS PRN 01 (Block IIF)
+Current receiver time: 55 s
+Current receiver time: 56 s
+Current receiver time: 57 s
+Current receiver time: 58 s
+Current receiver time: 59 s
+GPS L1 C/A histogram bit synchronization locked in channel 1 for satellite GPS PRN 17 (Block IIR-M)
+Enabled 10 ms extended correlator in channel 1 for satellite GPS PRN 17 (Block IIR-M)
+Current receiver time: 1 min 0 s
+GPS L1 C/A histogram bit synchronization locked in channel 2 for satellite GPS PRN 11 (Block III)
+Enabled 10 ms extended correlator in channel 2 for satellite GPS PRN 11 (Block III)
+GPS L1 C/A histogram bit synchronization locked in channel 0 for satellite GPS PRN 01 (Block IIF)
+Enabled 10 ms extended correlator in channel 0 for satellite GPS PRN 01 (Block IIF)
+Current receiver time: 1 min 1 s
+Current receiver time: 1 min 2 s
+Current receiver time: 1 min 3 s
+Current receiver time: 1 min 4 s
+Loss of lock in channel 4, satellite GPS PRN 23 (Block III) !
+Tracking of GPS L1 C/A signal started on channel 4 for satellite GPS PRN 23 (Block III)
+Current receiver time: 1 min 5 s
+Current receiver time: 1 min 6 s
+Current receiver time: 1 min 7 s
+Current receiver time: 1 min 8 s
+Current receiver time: 1 min 9 s
+Current receiver time: 1 min 10 s
+GPS L1 C/A histogram bit synchronization locked in channel 4 for satellite GPS PRN 23 (Block III)
+Enabled 10 ms extended correlator in channel 4 for satellite GPS PRN 23 (Block III)
+Current receiver time: 1 min 11 s
+Current receiver time: 1 min 12 s
+Current receiver time: 1 min 13 s
+Loss of lock in channel 3, satellite GPS PRN 20 (Block IIR) !
+Tracking of GPS L1 C/A signal started on channel 3 for satellite GPS PRN 20 (Block IIR)
+Current receiver time: 1 min 14 s
+Loss of lock in channel 1, satellite GPS PRN 17 (Block IIR-M) !
+Tracking of GPS L1 C/A signal started on channel 1 for satellite GPS PRN 17 (Block IIR-M)
+Current receiver time: 1 min 15 s
+Current receiver time: 1 min 16 s
+Current receiver time: 1 min 17 s
+Current receiver time: 1 min 18 s
+Current receiver time: 1 min 19 s
+GPS L1 C/A histogram bit synchronization locked in channel 3 for satellite GPS PRN 20 (Block IIR)
+Enabled 10 ms extended correlator in channel 3 for satellite GPS PRN 20 (Block IIR)
+Current receiver time: 1 min 20 s
+Current receiver time: 1 min 21 s
+GPS L1 C/A histogram bit synchronization locked in channel 1 for satellite GPS PRN 17 (Block IIR-M)
+Enabled 10 ms extended correlator in channel 1 for satellite GPS PRN 17 (Block IIR-M)
+Current receiver time: 1 min 22 s
+Current receiver time: 1 min 23 s
+Loss of lock in channel 2, satellite GPS PRN 11 (Block III) !
+Tracking of GPS L1 C/A signal started on channel 2 for satellite GPS PRN 11 (Block III)
+Current receiver time: 1 min 24 s
+Current receiver time: 1 min 25 s
+Current receiver time: 1 min 26 s
+Current receiver time: 1 min 27 s
+Current receiver time: 1 min 28 s
+Current receiver time: 1 min 29 s
+GPS L1 C/A histogram bit synchronization locked in channel 2 for satellite GPS PRN 11 (Block III)
+Enabled 10 ms extended correlator in channel 2 for satellite GPS PRN 11 (Block III)
+Current receiver time: 1 min 30 s
+Current receiver time: 1 min 31 s
+Current receiver time: 1 min 32 s
+Current receiver time: 1 min 33 s
+Loss of lock in channel 3, satellite GPS PRN 20 (Block IIR) !
+Tracking of GPS L1 C/A signal started on channel 3 for satellite GPS PRN 20 (Block IIR)
+Current receiver time: 1 min 34 s
+Current receiver time: 1 min 35 s
+Current receiver time: 1 min 36 s
+Current receiver time: 1 min 37 s
+Current receiver time: 1 min 38 s
+Current receiver time: 1 min 39 s
+Current receiver time: 1 min 40 s
+GPS L1 C/A histogram bit synchronization locked in channel 3 for satellite GPS PRN 20 (Block IIR)
+Enabled 10 ms extended correlator in channel 3 for satellite GPS PRN 20 (Block IIR)
+Stopping GNSS-SDR, please wait!
+Total GNSS-SDR run time: 200.113 [seconds]
+GNSS-SDR program ended.
+root@ed234c462d3b:/workspace/2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN# ls /tmp
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-025659.129   gnss-sdr.ed234c462d3b.root.log.INFO.20260610-201609.991
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-025856.140   gnss-sdr.ed234c462d3b.root.log.INFO.20260610-201621.1002
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-030045.151   gnss-sdr.ed234c462d3b.root.log.INFO.20260610-201632.1013
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-182135.162   gnss-sdr.ed234c462d3b.root.log.INFO.20260610-202125.1057
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-182337.173   gnss-sdr.ed234c462d3b.root.log.INFO.20260610-202204.1068
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-183641.184   gnss-sdr.ed234c462d3b.root.log.INFO.20260610-202226.1079
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-194017.733   gnss-sdr.ed234c462d3b.root.log.INFO.20260610-202250.1090
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-194135.755   gnss-sdr.ed234c462d3b.root.log.INFO.20260610-202308.1101
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-194203.766   gnss-sdr.ed234c462d3b.root.log.INFO.20260610-202323.1112
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-194248.777   gnss-sdr.ed234c462d3b.root.log.INFO.20260610-202509.1156
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-202125.1057  gnss-sdr.ed234c462d3b.root.log.INFO.20260610-202802.1200
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-202204.1068  gnss-sdr.ed234c462d3b.root.log.INFO.20260610-202944.1244
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-202226.1079  gnss-sdr.ed234c462d3b.root.log.INFO.20260610-203245.1288
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-202250.1090  gnss-sdr.ed234c462d3b.root.log.INFO.20260610-203901.1333
+gnss-sdr.ed234c462d3b.root.log.ERROR.20260610-202308.1101  gnss-sdr.ed234c462d3b.root.log.WARNING.20260609-222935.61
+gnss-sdr.ed234c462d3b.root.log.INFO.20260609-222935.61     gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-025418.118
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-025418.118    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-025659.129
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-025659.129    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-025856.140
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-025856.140    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-030045.151
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-030045.151    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-182135.162
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-182135.162    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-182337.173
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-182337.173    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-183641.184
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-183641.184    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-183936.195
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-183936.195    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-184036.206
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-184036.206    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-184119.217
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-184119.217    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-184229.228
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-184229.228    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-184354.239
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-184354.239    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-184836.250
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-184836.250    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-184917.293
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-184917.293    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-185006.336
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-185006.336    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-185031.347
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-185031.347    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-185130.390
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-185130.390    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-185156.401
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-185156.401    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-185431.444
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-185431.444    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-185807.491
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-185806.491    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-194017.733
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-185816.502    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-194044.744
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-185832.513    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-194135.755
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-185851.556    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-194203.766
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-185905.599    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-194248.777
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-190457.643    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-201609.991
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-190526.687    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-201621.1002
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-194017.733    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-202125.1057
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-194044.744    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-202204.1068
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-194135.755    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-202226.1079
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-194203.766    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-202250.1090
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-194247.777    gnss-sdr.ed234c462d3b.root.log.WARNING.20260610-202308.1101
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-194306.788    gnss-sdr.ERROR
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-195741.855    gnss-sdr.INFO
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-200603.903    gnss-sdr.WARNING
+gnss-sdr.ed234c462d3b.root.log.INFO.20260610-201325.947
+root@ed234c462d3b:/workspace/2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN# more gnss-sdr.ed234c462d3b.root.log.INFO.20260610-203901.1333
+more: cannot open gnss-sdr.ed234c462d3b.root.log.INFO.20260610-203901.1333: No such file or directory
+root@ed234c462d3b:/workspace/2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN# more /tmp/gnss-sdr.ed234c462d3b.root.log.INFO.20260610-203901.1333
+Log file created at: 2026/06/10 20:39:01
+Running on machine: ed234c462d3b
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20260610 20:39:01.111203  1333 gnss_block_factory.cc:911] Getting SignalSource SignalSource with implementation File_Signal_Source
+I20260610 20:39:01.113109  1333 gnss_block_factory.cc:959] Getting SignalConditioner with DataTypeAdapter implementation: Ishort_To_Complex, I
+nputFilter implementation: Pass_Through, and Resampler implementation: Pass_Through
+I20260610 20:39:01.114142  1333 gnss_block_factory.cc:890] Getting Observables with implementation Hybrid_Observables
+I20260610 20:39:01.114246  1333 gnss_block_factory.cc:890] Getting PVT with implementation RTKLIB_PVT
+I20260610 20:39:01.126403  1333 gnss_block_factory.cc:1061] Getting 5 GPS L1 C/A channels
+I20260610 20:39:01.126431  1333 gnss_block_factory.cc:1024] Instantiating Channel 0 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisitio
+n, Tracking Implementation: GPS_L1_CA_DLL_PLL_Tracking, Telemetry Decoder implementation: GPS_L1_CA_Telemetry_Decoder
+I20260610 20:39:01.133315  1333 dll_pll_veml_tracking.cc:1849] Tracking Channel set to 0
+I20260610 20:39:01.133365  1333 gnss_block_factory.cc:1024] Instantiating Channel 1 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisitio
+n, Tracking Implementation: GPS_L1_CA_DLL_PLL_Tracking, Telemetry Decoder implementation: GPS_L1_CA_Telemetry_Decoder
+I20260610 20:39:01.137257  1333 dll_pll_veml_tracking.cc:1849] Tracking Channel set to 1
+I20260610 20:39:01.137310  1333 gnss_block_factory.cc:1024] Instantiating Channel 2 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisitio
+n, Tracking Implementation: GPS_L1_CA_DLL_PLL_Tracking, Telemetry Decoder implementation: GPS_L1_CA_Telemetry_Decoder
+I20260610 20:39:01.141703  1333 dll_pll_veml_tracking.cc:1849] Tracking Channel set to 2
+I20260610 20:39:01.141752  1333 gnss_block_factory.cc:1024] Instantiating Channel 3 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisitio
+n, Tracking Implementation: GPS_L1_CA_DLL_PLL_Tracking, Telemetry Decoder implementation: GPS_L1_CA_Telemetry_Decoder
+I20260610 20:39:01.146999  1333 dll_pll_veml_tracking.cc:1849] Tracking Channel set to 3
+I20260610 20:39:01.147050  1333 gnss_block_factory.cc:1024] Instantiating Channel 4 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisitio
+n, Tracking Implementation: GPS_L1_CA_DLL_PLL_Tracking, Telemetry Decoder implementation: GPS_L1_CA_Telemetry_Decoder
+I20260610 20:39:01.153648  1333 dll_pll_veml_tracking.cc:1849] Tracking Channel set to 4
+I20260610 20:39:01.153697  1333 gnss_block_factory.cc:1061] Getting 0 GPS L2C (M) channels
+I20260610 20:39:01.153702  1333 gnss_block_factory.cc:1061] Getting 0 GPS L5 channels
+I20260610 20:39:01.153707  1333 gnss_block_factory.cc:1061] Getting 0 GALILEO E1 B (I/NAV OS) channels
+I20260610 20:39:01.153709  1333 gnss_block_factory.cc:1061] Getting 0 GALILEO E5a I (F/NAV OS) channels
+I20260610 20:39:01.153713  1333 gnss_block_factory.cc:1061] Getting 0 GALILEO E6 (B/C HAS) channels
+I20260610 20:39:01.153716  1333 gnss_block_factory.cc:1061] Getting 0 GLONASS L1 C/A channels
+I20260610 20:39:01.153719  1333 gnss_block_factory.cc:1061] Getting 0 GLONASS L2 C/A channels
+I20260610 20:39:01.153723  1333 gnss_block_factory.cc:1061] Getting 0 BEIDOU B1I channels
+I20260610 20:39:01.153726  1333 gnss_block_factory.cc:1061] Getting 0 BEIDOU B3I channels
+I20260610 20:39:01.153730  1333 gnss_block_factory.cc:1061] Getting 0 GALILEO E5b I (I/NAV OS) channels
+I20260610 20:39:01.153733  1333 gnss_block_factory.cc:1061] Getting 0 QZSS L1 C/A channels
+I20260610 20:39:01.153736  1333 gnss_block_factory.cc:1061] Getting 0 QZSS L5 channels
+I20260610 20:39:01.153832  1333 gnss_flowgraph.cc:424] Connecting flowgraph
+I20260610 20:39:01.156549  1333 gnss_flowgraph.cc:1056] connecting sig_source_ 0 stream 0 to conditioner 0
+I20260610 20:39:01.157210  1333 gnss_flowgraph.cc:587] Channel 0 assigned to GPS PRN 01 (Block IIF) Signal 1C
+I20260610 20:39:01.157233  1333 gnss_flowgraph.cc:604] Channel 0 connected to observables and ready for acquisition
+I20260610 20:39:01.157238  1333 gnss_flowgraph.cc:587] Channel 1 assigned to GPS PRN 02 (Block IIR) Signal 1C
+I20260610 20:39:01.157243  1333 gnss_flowgraph.cc:608] Channel 1 connected to observables in standby mode
+I20260610 20:39:01.157248  1333 gnss_flowgraph.cc:587] Channel 2 assigned to GPS PRN 03 (Block IIF) Signal 1C
+I20260610 20:39:01.157313  1333 gnss_flowgraph.cc:608] Channel 2 connected to observables in standby mode
+I20260610 20:39:01.157321  1333 gnss_flowgraph.cc:587] Channel 3 assigned to GPS PRN 04 (Block III) Signal 1C
+I20260610 20:39:01.157325  1333 gnss_flowgraph.cc:608] Channel 3 connected to observables in standby mode
+I20260610 20:39:01.157328  1333 gnss_flowgraph.cc:587] Channel 4 assigned to GPS PRN 05 (Block IIR-M) Signal 1C
+I20260610 20:39:01.157331  1333 gnss_flowgraph.cc:608] Channel 4 connected to observables in standby mode
+I20260610 20:39:01.157336  1333 gnss_flowgraph.cc:612] The GNU Radio flowgraph for the current GNSS-SDR configuration has been successfully co
+nnected
+I20260610 20:39:01.157342  1333 gnss_flowgraph.cc:460] Flowgraph connected
+I20260610 20:39:01.157347  1333 control_thread.cc:399] Flowgraph connected
+I20260610 20:39:01.170205  1333 control_thread.cc:409] Flowgraph started
+I20260610 20:39:01.173854  1367 pcps_acquisition.cc:333] Successful acquisition in channel 0 for satellite G 1
+I20260610 20:39:01.177023  1363 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 12330 ( 0.0030825
+ s)for satellite GPS PRN 01 (Block IIF) in channel 0
+I20260610 20:39:01.215363  1359 pcps_acquisition.cc:333] Successful acquisition in channel 2 for satellite G 11
+I20260610 20:39:01.217913  1357 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 4138 ( 0.0010345
+s)for satellite GPS PRN 11 (Block III) in channel 2
+I20260610 20:39:01.239967  1362 pcps_acquisition.cc:333] Successful acquisition in channel 1 for satellite G 17
+I20260610 20:39:01.242530  1360 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 4138 ( 0.0010345
+s)for satellite GPS PRN 17 (Block IIR-M) in channel 1
+I20260610 20:39:01.252465  1356 pcps_acquisition.cc:333] Successful acquisition in channel 3 for satellite G 20
+I20260610 20:39:01.254959  1354 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 4138 ( 0.0010345
+s)for satellite GPS PRN 20 (Block IIR) in channel 3
+I20260610 20:39:01.260728  1353 pcps_acquisition.cc:333] Successful acquisition in channel 4 for satellite G 22
+I20260610 20:39:01.263080  1351 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 4138 ( 0.0010345
+s)for satellite GPS PRN 22 (Block IIR) in channel 4
+I20260610 20:39:13.722767  1363 dll_pll_veml_tracking.cc:2068] GPS L1 C/A histogram bit synchronization locked in channel 0 for satellite GPS
+PRN 01 (Block IIF)
+I20260610 20:39:13.722880  1363 dll_pll_veml_tracking.cc:2120] Enabled 10 ms extended correlator in channel 0 for satellite GPS PRN 01 (Block
+IIF)
+I20260610 20:39:13.812534  1357 dll_pll_veml_tracking.cc:2068] GPS L1 C/A histogram bit synchronization locked in channel 2 for satellite GPS
+PRN 11 (Block III)
+I20260610 20:39:13.812621  1357 dll_pll_veml_tracking.cc:2120] Enabled 10 ms extended correlator in channel 2 for satellite GPS PRN 11 (Block
+III)
+I20260610 20:39:13.816572  1360 dll_pll_veml_tracking.cc:2068] GPS L1 C/A histogram bit synchronization locked in channel 1 for satellite GPS
+PRN 17 (Block IIR-M)
+I20260610 20:39:13.816696  1360 dll_pll_veml_tracking.cc:2120] Enabled 10 ms extended correlator in channel 1 for satellite GPS PRN 17 (Block
+IIR-M)
+I20260610 20:39:13.841310  1354 dll_pll_veml_tracking.cc:2068] GPS L1 C/A histogram bit synchronization locked in channel 3 for satellite GPS
+PRN 20 (Block IIR)
+I20260610 20:39:13.841403  1354 dll_pll_veml_tracking.cc:2120] Enabled 10 ms extended correlator in channel 3 for satellite GPS PRN 20 (Block
+IIR)
+I20260610 20:39:23.260684  1351 dll_pll_veml_tracking.cc:1215] Loss of lock in channel 4, satellite GPS PRN 22 (Block IIR) (carrier_lock_fail_
+counter:5001 code_lock_fail_counter : 0)
+I20260610 20:39:23.271466  1353 pcps_acquisition.cc:333] Successful acquisition in channel 4 for satellite G 23
+I20260610 20:39:23.272904  1351 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 3512 ( 0.000878 s
+)for satellite GPS PRN 23 (Block III) in channel 4
+I20260610 20:39:36.129788  1351 dll_pll_veml_tracking.cc:2068] GPS L1 C/A histogram bit synchronization locked in channel 4 for satellite GPS
+PRN 23 (Block III)
+I20260610 20:39:36.130023  1351 dll_pll_veml_tracking.cc:2120] Enabled 10 ms extended correlator in channel 4 for satellite GPS PRN 23 (Block
+III)
+I20260610 20:40:34.698016  1354 dll_pll_veml_tracking.cc:1215] Loss of lock in channel 3, satellite GPS PRN 20 (Block IIR) (carrier_lock_fail_
+counter:4337 code_lock_fail_counter : 51)
+I20260610 20:40:34.703958  1356 pcps_acquisition.cc:333] Successful acquisition in channel 3 for satellite G 20
+I20260610 20:40:34.706344  1354 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 4138 ( 0.0010345
+s)for satellite GPS PRN 20 (Block IIR) in channel 3
+I20260610 20:40:45.109794  1360 dll_pll_veml_tracking.cc:1215] Loss of lock in channel 1, satellite GPS PRN 17 (Block IIR-M) (carrier_lock_fai
+l_counter:4852 code_lock_fail_counter : 51)
+I20260610 20:40:45.115581  1362 pcps_acquisition.cc:333] Successful acquisition in channel 1 for satellite G 17
+I20260610 20:40:45.117796  1360 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 1061 ( 0.00026525
+ s)for satellite GPS PRN 17 (Block IIR-M) in channel 1
+I20260610 20:40:47.594723  1354 dll_pll_veml_tracking.cc:2068] GPS L1 C/A histogram bit synchronization locked in channel 3 for satellite GPS
+PRN 20 (Block IIR)
+I20260610 20:40:47.594812  1354 dll_pll_veml_tracking.cc:2120] Enabled 10 ms extended correlator in channel 3 for satellite GPS PRN 20 (Block
+IIR)
+I20260610 20:40:47.869002  1357 dll_pll_veml_tracking.cc:1215] Loss of lock in channel 2, satellite GPS PRN 11 (Block III) (carrier_lock_fail_
+counter:5001 code_lock_fail_counter : 0)
+I20260610 20:40:47.875144  1359 pcps_acquisition.cc:333] Successful acquisition in channel 2 for satellite G 11
+I20260610 20:40:47.877307  1357 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 3518 ( 0.0008795
+s)for satellite GPS PRN 11 (Block III) in channel 2
+I20260610 20:40:48.217368  1363 dll_pll_veml_tracking.cc:1215] Loss of lock in channel 0, satellite GPS PRN 01 (Block IIF) (carrier_lock_fail_
+counter:5001 code_lock_fail_counter : 0)
+I20260610 20:40:48.224145  1367 pcps_acquisition.cc:333] Successful acquisition in channel 0 for satellite G 1
+I20260610 20:40:48.225406  1363 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 3512 ( 0.000878 s
+)for satellite GPS PRN 01 (Block IIF) in channel 0
+I20260610 20:40:57.527205  1360 dll_pll_veml_tracking.cc:2068] GPS L1 C/A histogram bit synchronization locked in channel 1 for satellite GPS
+PRN 17 (Block IIR-M)
+I20260610 20:40:57.527320  1360 dll_pll_veml_tracking.cc:2120] Enabled 10 ms extended correlator in channel 1 for satellite GPS PRN 17 (Block
+IIR-M)
+I20260610 20:41:00.287663  1357 dll_pll_veml_tracking.cc:2068] GPS L1 C/A histogram bit synchronization locked in channel 2 for satellite GPS
+PRN 11 (Block III)
+I20260610 20:41:00.287742  1357 dll_pll_veml_tracking.cc:2120] Enabled 10 ms extended correlator in channel 2 for satellite GPS PRN 11 (Block
+III)
+I20260610 20:41:00.677373  1363 dll_pll_veml_tracking.cc:2068] GPS L1 C/A histogram bit synchronization locked in channel 0 for satellite GPS
+PRN 01 (Block IIF)
+I20260610 20:41:00.677489  1363 dll_pll_veml_tracking.cc:2120] Enabled 10 ms extended correlator in channel 0 for satellite GPS PRN 01 (Block
+IIF)
+I20260610 20:41:07.566210  1351 dll_pll_veml_tracking.cc:1215] Loss of lock in channel 4, satellite GPS PRN 23 (Block III) (carrier_lock_fail_
+counter:5001 code_lock_fail_counter : 0)
+I20260610 20:41:07.572134  1353 pcps_acquisition.cc:333] Successful acquisition in channel 4 for satellite G 23
+I20260610 20:41:07.574568  1351 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 4140 ( 0.001035 s
+)for satellite GPS PRN 23 (Block III) in channel 4
+I20260610 20:41:20.565162  1351 dll_pll_veml_tracking.cc:2068] GPS L1 C/A histogram bit synchronization locked in channel 4 for satellite GPS
+PRN 23 (Block III)
+I20260610 20:41:20.565268  1351 dll_pll_veml_tracking.cc:2120] Enabled 10 ms extended correlator in channel 4 for satellite GPS PRN 23 (Block
+III)
+I20260610 20:41:26.094825  1354 dll_pll_veml_tracking.cc:1215] Loss of lock in channel 3, satellite GPS PRN 20 (Block IIR) (carrier_lock_fail_
+counter:2371 code_lock_fail_counter : 51)
+I20260610 20:41:26.101158  1356 pcps_acquisition.cc:333] Successful acquisition in channel 3 for satellite G 20
+I20260610 20:41:26.103123  1354 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 3512 ( 0.000878 s
+)for satellite GPS PRN 20 (Block IIR) in channel 3
+I20260610 20:41:28.408747  1360 dll_pll_veml_tracking.cc:1215] Loss of lock in channel 1, satellite GPS PRN 17 (Block IIR-M) (carrier_lock_fai
+l_counter:1751 code_lock_fail_counter : 51)
+I20260610 20:41:28.414484  1362 pcps_acquisition.cc:333] Successful acquisition in channel 1 for satellite G 17
+I20260610 20:41:28.417045  1360 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 4191 ( 0.00104775
+ s)for satellite GPS PRN 17 (Block IIR-M) in channel 1
+I20260610 20:41:38.754865  1354 dll_pll_veml_tracking.cc:2068] GPS L1 C/A histogram bit synchronization locked in channel 3 for satellite GPS
+PRN 20 (Block IIR)
+I20260610 20:41:38.755000  1354 dll_pll_veml_tracking.cc:2120] Enabled 10 ms extended correlator in channel 3 for satellite GPS PRN 20 (Block
+IIR)
+I20260610 20:41:42.089030  1360 dll_pll_veml_tracking.cc:2068] GPS L1 C/A histogram bit synchronization locked in channel 1 for satellite GPS
+PRN 17 (Block IIR-M)
+I20260610 20:41:42.089139  1360 dll_pll_veml_tracking.cc:2120] Enabled 10 ms extended correlator in channel 1 for satellite GPS PRN 17 (Block
+IIR-M)
+I20260610 20:41:45.926888  1357 dll_pll_veml_tracking.cc:1215] Loss of lock in channel 2, satellite GPS PRN 11 (Block III) (carrier_lock_fail_
+counter:2236 code_lock_fail_counter : 51)
+I20260610 20:41:45.933645  1359 pcps_acquisition.cc:333] Successful acquisition in channel 2 for satellite G 11
+I20260610 20:41:45.935314  1357 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 4144 ( 0.001036 s
+)for satellite GPS PRN 11 (Block III) in channel 2
+I20260610 20:41:58.765980  1357 dll_pll_veml_tracking.cc:2068] GPS L1 C/A histogram bit synchronization locked in channel 2 for satellite GPS
+PRN 11 (Block III)
+I20260610 20:41:58.766069  1357 dll_pll_veml_tracking.cc:2120] Enabled 10 ms extended correlator in channel 2 for satellite GPS PRN 11 (Block
+III)
+I20260610 20:42:06.294257  1354 dll_pll_veml_tracking.cc:1215] Loss of lock in channel 3, satellite GPS PRN 20 (Block IIR) (carrier_lock_fail_
+counter:1623 code_lock_fail_counter : 51)
+I20260610 20:42:06.300171  1356 pcps_acquisition.cc:333] Successful acquisition in channel 3 for satellite G 20
+I20260610 20:42:06.302630  1354 dll_pll_veml_tracking.cc:1973] Pull-in: Number of samples between Acquisition and Tracking = 4138 ( 0.0010345
+s)for satellite GPS PRN 20 (Block IIR) in channel 3
+I20260610 20:42:19.752110  1354 dll_pll_veml_tracking.cc:2068] GPS L1 C/A histogram bit synchronization locked in channel 3 for satellite GPS
+PRN 20 (Block IIR)
+I20260610 20:42:19.752257  1354 dll_pll_veml_tracking.cc:2120] Enabled 10 ms extended correlator in channel 3 for satellite GPS PRN 20 (Block
+IIR)
+I20260610 20:42:21.156713  1346 gnss_sdr_valve.cc:75] Stopping receiver, 800000000 samples processed
+I20260610 20:42:21.157282  1333 control_thread.cc:974] Received action STOP
+I20260610 20:42:21.161023  1333 gnss_flowgraph.cc:467] Disconnecting flowgraph
+I20260610 20:42:21.161150  1333 gnss_flowgraph.cc:484] Flowgraph disconnected
+I20260610 20:42:21.161309  1333 control_thread.cc:489] Flowgraph stopped
+I20260610 20:42:21.254103  1333 rtklib_pvt_gs.cc:661] Failed to save GPS L2CM or L5 Ephemeris, map is empty
+I20260610 20:42:21.254175  1333 rtklib_pvt_gs.cc:687] Failed to save GPS L1 CA Ephemeris, map is empty
+I20260610 20:42:21.254182  1333 rtklib_pvt_gs.cc:722] Failed to save Galileo E1 Ephemeris, map is empty
+I20260610 20:42:21.254185  1333 rtklib_pvt_gs.cc:752] Failed to save GLONASS GNAV Ephemeris, map is empty
+I20260610 20:42:21.254189  1333 rtklib_pvt_gs.cc:782] Failed to save GPS UTC model parameters, not valid data
+I20260610 20:42:21.254191  1333 rtklib_pvt_gs.cc:812] Failed to save Galileo UTC model parameters, not valid data
+I20260610 20:42:21.254194  1333 rtklib_pvt_gs.cc:842] Failed to save GPS ionospheric model parameters, not valid data
+I20260610 20:42:21.254196  1333 rtklib_pvt_gs.cc:872] Failed to save GPS CNAV ionospheric model parameters, not valid data
+I20260610 20:42:21.254199  1333 rtklib_pvt_gs.cc:902] Failed to save Galileo ionospheric model parameters, not valid data
+I20260610 20:42:21.254202  1333 rtklib_pvt_gs.cc:932] Failed to save GPS almanac, map is empty
+I20260610 20:42:21.254235  1333 rtklib_pvt_gs.cc:962] Failed to save Galileo almanac, not valid data
+I20260610 20:42:21.254241  1333 rtklib_pvt_gs.cc:992] Failed to save GPS CNAV UTC model parameters, not valid data
+I20260610 20:42:21.254244  1333 rtklib_pvt_gs.cc:1022] Failed to save GLONASS GNAV ephemeris, map is empty
+I20260610 20:42:21.254247  1333 rtklib_pvt_gs.cc:1052] Failed to save GLONASS GNAV ephemeris, not valid data
+I20260610 20:42:21.254254  1333 rtklib_pvt_gs.cc:1082] Failed to save BeiDou DNAV Ephemeris, map is empty
+I20260610 20:42:21.254256  1333 rtklib_pvt_gs.cc:1112] Failed to save BeiDou DNAV ionospheric model parameters, not valid data
+I20260610 20:42:21.254259  1333 rtklib_pvt_gs.cc:1142] Failed to save BeiDou DNAV almanac, map is empty
+I20260610 20:42:21.254262  1333 rtklib_pvt_gs.cc:1172] Failed to save BeiDou DNAV UTC model parameters, not valid data
+root@ed234c462d3b:/workspace/2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN# more /tmp/gnss-sdr.ed234c462d3b.root.log.INFO.20260610-203901.1333
+Log file created at: 2026/06/10 20:39:01
+Running on machine: ed234c462d3b
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20260610 20:39:01.111203  1333 gnss_block_factory.cc:911] Getting SignalSource SignalSource with implementation File_Signal_Source
+I20260610 20:39:01.113109  1333 gnss_block_factory.cc:959] Getting SignalConditioner with DataTypeAdapter implementation: Ishort_To_Complex, I
+nputFilter implementation: Pass_Through, and Resampler implementation: Pass_Through
+I20260610 20:39:01.114142  1333 gnss_block_factory.cc:890] Getting Observables with implementation Hybrid_Observables
+I20260610 20:39:01.114246  1333 gnss_block_factory.cc:890] Getting PVT with implementation RTKLIB_PVT
+I20260610 20:39:01.126403  1333 gnss_block_factory.cc:1061] Getting 5 GPS L1 C/A channels
+I20260610 20:39:01.126431  1333 gnss_block_factory.cc:1024] Instantiating Channel 0 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisitio
+n, Tracking Implementation: GPS_L1_CA_DLL_PLL_Tracking, Telemetry Decoder implementation: GPS_L1_CA_Telemetry_Decoder
+I20260610 20:39:01.133315  1333 dll_pll_veml_tracking.cc:1849] Tracking Channel set to 0
+I20260610 20:39:01.133365  1333 gnss_block_factory.cc:1024] Instantiating Channel 1 with Acquisition Implementation: GPS_L1_CA_PCPS_Acquisitio
+root@ed234c462d3b:/workspace/2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN# gnss-sdr --config_file=2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN.conf
+Initializing GNSS-SDR v0.0.21.git-next-d272d1ebd ... Please wait.
+Logging will be written at "/tmp"
+Use gnss-sdr --log_dir=/path/to/log to change that.
+RF Channels: 1
+Processing file /workspace/2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN/2013_04_04_GNSS_SIGNAL_at_CTTC_SPAIN.dat, which contains 800000000 samples (1600000000 bytes)
+GNSS signal recorded time to be processed: 200 [s]
+Tracking of GPS L1 C/A signal started on channel 0 for satellite GPS PRN 01 (Block IIF)
+Current receiver time: 1 s
+Tracking of GPS L1 C/A signal started on channel 2 for satellite GPS PRN 11 (Block III)
+Tracking of GPS L1 C/A signal started on channel 1 for satellite GPS PRN 17 (Block IIR-M)
+Tracking of GPS L1 C/A signal started on channel 3 for satellite GPS PRN 20 (Block IIR)
+Tracking of GPS L1 C/A signal started on channel 4 for satellite GPS PRN 23 (Block III)
+Current receiver time: 2 s
+Current receiver time: 3 s
+Current receiver time: 4 s
+Current receiver time: 5 s
+Current receiver time: 6 s
+Current receiver time: 7 s
+GPS L1 C/A histogram bit synchronization locked in channel 0 for satellite GPS PRN 01 (Block IIF)
+Enabled 10 ms extended correlator in channel 0 for satellite GPS PRN 01 (Block IIF)
+GPS L1 C/A histogram bit synchronization locked in channel 2 for satellite GPS PRN 11 (Block III)
+Enabled 10 ms extended correlator in channel 2 for satellite GPS PRN 11 (Block III)
+GPS L1 C/A histogram bit synchronization locked in channel 1 for satellite GPS PRN 17 (Block IIR-M)
+Enabled 10 ms extended correlator in channel 1 for satellite GPS PRN 17 (Block IIR-M)
+GPS L1 C/A histogram bit synchronization locked in channel 3 for satellite GPS PRN 20 (Block IIR)
+Enabled 10 ms extended correlator in channel 3 for satellite GPS PRN 20 (Block IIR)
+GPS L1 C/A histogram bit synchronization locked in channel 4 for satellite GPS PRN 23 (Block III)
+Enabled 10 ms extended correlator in channel 4 for satellite GPS PRN 23 (Block III)
+Current receiver time: 8 s
+Current receiver time: 9 s
+Current receiver time: 10 s
+Current receiver time: 11 s
+Current receiver time: 12 s
+Current receiver time: 13 s
+Current receiver time: 14 s
+New GPS NAV message received in channel 3: subframe 1 from satellite GPS PRN 20 (Block IIR) with CN0=New GPS NAV message received in channel 0: subframe 1 from satellite GPS PRN 01 (Block IIF) with CN0=47 dB-Hz
+49 dB-Hz
+New GPS NAV message received in channel 4: subframe 1 from satellite GPS PRN 23 (Block III) with CN0=49 dB-Hz
+New GPS NAV message received in channel 2: subframe 1 from satellite GPS PRN 11 (Block III) with CN0=46 dB-Hz
+New GPS NAV message received in channel 1: subframe 1 from satellite GPS PRN 17 (Block IIR-M) with CN0=46 dB-Hz
+Current receiver time: 15 s
+Current receiver time: 16 s
+Current receiver time: 17 s
+Current receiver time: 18 s
+Current receiver time: 19 s
+Current receiver time: 20 s
+New GPS NAV message received in channel 3: subframe 2 from satellite GPS PRN 20 (Block IIR) with CN0=48 dB-Hz
+New GPS NAV message received in channel 0: subframe 2 from satellite GPS PRN 01 (Block IIF) with CN0=46 dB-Hz
+New GPS NAV message received in channel 4: subframe 2 from satellite GPS PRN 23 (Block III) with CN0=49 dB-Hz
+New GPS NAV message received in channel 2: subframe 2 from satellite GPS PRN 11 (Block III) with CN0=47 dB-Hz
+New GPS NAV message received in channel 1: subframe 2 from satellite GPS PRN 17 (Block IIR-M) with CN0=47 dB-Hz
+Current receiver time: 21 s
+Current receiver time: 22 s
+Current receiver time: 23 s
+Current receiver time: 24 s
+^CStopping GNSS-SDR, please wait!
+Total GNSS-SDR run time: 48.0459 [seconds]
+GNSS-SDR program ended.
